@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, Sunny!</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for that scrapbook diary vibe -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Courier+Prime&family=EB+Garamond:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- SECTION 1: Intro / Welcome -->
+    <section class="light-section center-align">
+        <span class="date-badge">✨ June 2026</span>
+        <h1 class="handwritten main-title">happy birthday.</h1>
+        <p class="subtitle">today is entirely about celebrating your existence, and how incredibly lucky i am to have you in my universe.</p>
+        
+        <div class="polaroid-container">
+            <div class="polaroid">
+                <img src="images/him1.jpg" alt="The birthday boy">
+                <div class="caption handwritten">the favorite person ever.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 2: How We Happened / Quick Timeline -->
+    <section class="light-section">
+        <div class="container">
+            <h2 class="handwritten section-heading">how we happened.</h2>
+            <p class="small-italic">just a little evidence of us...</p>
+            
+            <div class="split-layout">
+                <div class="text-block">
+                    <h3 class="handwritten">the moment everything shifted</h3>
+                    <p>i still remember the exact way you laughed the first time we properly talked. it’s crazy how a single ordinary day can turn into the absolute anchor of your whole life.</p>
+                </div>
+                <div class="polaroid">
+                    <img src="images/us1.jpg" alt="Us">
+                    <div class="caption handwritten">our early days ❤️</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: Dark Mode Transition (His Corner / Stats) -->
+    <section class="dark-section center-align">
+        <div class="container">
+            <h2 class="handwritten section-heading light-text">the appreciation corner.</h2>
+            <p class="small-italic light-text" style="opacity: 0.7;">some stats and things that make you, *you*</p>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <span class="stat-number">365</span>
+                    <p class="stat-label">days of you making the world infinitely brighter</p>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">∞</span>
+                    <p class="stat-label">expected reasons to stay awake talking to you</p>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">2,000 km</span>
+                    <p class="stat-label">apart, but nobody else matters even a fraction as much</p>
+                </div>
+            </div>
+            
+            <p class="cosmic-text handwritten">"cities between us. roads, rivers, entire states. and yet, the last thing i want to hear before sleeping is your voice."</p>
+        </div>
+    </section>
+
+    <!-- SECTION 4: Interactive Letter Reveal -->
+    <section class="light-section center-align">
+        <div class="container">
+            <h2 class="handwritten section-heading">a written letter.</h2>
+            <p class="small-italic">written with my whole heart, meant for always.</p>
+            
+            <!-- Clickable preview envelope box -->
+            <div class="envelope-preview" id="envelopeBtn" onclick="revealLetter()">
+                <p class="handwritten">click to unwrap your letter...</p>
+                <span class="music-icon">🎵</span>
+            </div>
+
+            <!-- Hidden detailed letter content -->
+            <div id="hiddenLetter" class="letter-content-box hidden">
+                <h3 class="handwritten">to the boy who holds my world,</h3>
+                <p>i think about your existence a lot. how out of billions of people, you ended up being my person. you became my home so quickly without even trying.</p>
+                <p>thank you for your kindness, your patience, the way you make me feel safe, and for just being born. i hope today shows you even a fraction of how deeply loved you are.</p>
+                <p class="handwritten" style="font-size: 1.8rem; margin-top: 2rem;">— forever yours, me.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 5: Things I Notice (Sticky Notes Grid) -->
+    <section class="light-section">
+        <div class="container">
+            <h2 class="handwritten section-heading">the little things i notice.</h2>
+            <p class="small-italic">small things that mean absolutely everything to me.</p>
+            
+            <div class="sticky-notes-container">
+                <div class="note note-yellow">
+                    <p class="handwritten">the way your voice sounds when you're sleepy.</p>
+                </div>
+                <div class="note note-pink">
+                    <p class="handwritten">the way you randomly make me laugh when i'm stressed.</p>
+                </div>
+                <div class="note note-blue">
+                    <p class="handwritten">how effortlessly you listen to my long rants.</p>
+                </div>
+                <div class="note note-purple">
+                    <p class="handwritten">that specific smile you only make when you're teasing me.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 6: Outro Footer -->
+    <section class="light-section center-align" style="padding-bottom: 100px;">
+        <div class="polaroid-row">
+            <div class="polaroid small-polaroid"><img src="images/gallery1.jpg"></div>
+            <div class="polaroid small-polaroid"><img src="images/gallery2.jpg"></div>
+            <div class="polaroid small-polaroid"><img src="images/gallery3.jpg"></div>
+        </div>
+        <h2 class="handwritten main-title" style="margin-top: 40px;">happy birthday, favorite human.</h2>
+        <p class="small-italic">i'm not going anywhere. not ever.</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
