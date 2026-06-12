@@ -155,10 +155,15 @@ body {
 /* --- STAR WORK: Constellation Night Sky Section --- */
 .starry-section {
     position: relative;
-    background: radial-gradient(circle at 50% 50%, #111726, #07090e); /* Midnight dark blue sky */
-    color: #f0f6fc;
+    background: #0d1117 !important; /* Solid dark midnight color */
+    color: #f0f6fc !important;
     padding: 120px 0;
     overflow: hidden;
+}
+
+.starry-section .small-italic {
+    color: #ffe3a8 !important;
+    opacity: 0.8;
 }
 
 /* Tiny star patterns scattered behind text */
