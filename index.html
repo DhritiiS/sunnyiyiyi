@@ -5,117 +5,147 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happy Birthday, Sunny!</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Google Fonts for that scrapbook diary vibe -->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Courier+Prime&family=EB+Garamond:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- SECTION 1: Intro / Welcome -->
+    <!-- SECTION 1: Welcome/Intro -->
     <section class="light-section center-align">
-        <span class="date-badge">✨ June 2026</span>
+        <span class="date-badge">✨ Happy Birthday, Sunny</span>
         <h1 class="handwritten main-title">happy birthday.</h1>
         <p class="subtitle">today is entirely about celebrating your existence, and how incredibly lucky i am to have you in my universe.</p>
         
         <div class="polaroid-container">
             <div class="polaroid">
-                <img src="images/him1.jpg" alt="The birthday boy">
+                <img src="images/him-current.jpg" alt="Sunny">
                 <div class="caption handwritten">the favorite person ever.</div>
             </div>
         </div>
     </section>
 
-    <!-- SECTION 2: How We Happened / Quick Timeline -->
+    <!-- SECTION 2: Childhood Adoration Corner (NEW) -->
     <section class="light-section">
         <div class="container">
-            <h2 class="handwritten section-heading">how we happened.</h2>
-            <p class="small-italic">just a little evidence of us...</p>
+            <h2 class="handwritten section-heading">little you.</h2>
+            <p class="small-italic">if i could turn back time, i’d look for you sooner...</p>
             
             <div class="split-layout">
                 <div class="text-block">
-                    <h3 class="handwritten">the moment everything shifted</h3>
-                    <p>i still remember the exact way you laughed the first time we properly talked. it’s crazy how a single ordinary day can turn into the absolute anchor of your whole life.</p>
+                    <h3 class="handwritten">wishing i knew you then</h3>
+                    <p>looking at your childhood pictures makes my whole heart melt. there is so much innocence in your eyes, and i constantly find myself wishing i could have known you since you were little. i wish i could have been there to see you grow up, to hold your hand through every small milestone, and to tell that little boy that he's going to grow up to be the most wonderful, adored person in the world.</p>
                 </div>
-                <div class="polaroid">
-                    <img src="images/us1.jpg" alt="Us">
-                    <div class="caption handwritten">our early days ❤️</div>
+                <div class="polaroid-row">
+                    <div class="polaroid adaptive-polaroid" style="transform: rotate(-4deg);">
+                        <img src="images/him-childhood1.jpg" alt="Little Sunny 1">
+                        <div class="caption handwritten">baby you 🥺</div>
+                    </div>
+                    <div class="polaroid adaptive-polaroid" style="transform: rotate(3deg); margin-top: 20px;">
+                        <img src="images/him-childhood2.jpg" alt="Little Sunny 2">
+                        <div class="caption handwritten">so tiny!</div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SECTION 3: Dark Mode Transition (His Corner / Stats) -->
-    <section class="dark-section center-align">
-        <div class="container">
-            <h2 class="handwritten section-heading light-text">the appreciation corner.</h2>
-            <p class="small-italic light-text" style="opacity: 0.7;">some stats and things that make you, *you*</p>
+    <!-- SECTION 3: So Proud of You & Us (REPLACED) -->
+    <section class="light-section bg-slightly-warmer">
+        <div class="container center-align">
+            <h2 class="handwritten section-heading">beyond proud.</h2>
+            <p class="small-italic">of who you are, what you do, and who we are together.</p>
             
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <span class="stat-number">365</span>
-                    <p class="stat-label">days of you making the world infinitely brighter</p>
-                </div>
-                <div class="stat-card">
-                    <span class="stat-number">∞</span>
-                    <p class="stat-label">expected reasons to stay awake talking to you</p>
-                </div>
-                <div class="stat-card">
-                    <span class="stat-number">2,000 km</span>
-                    <p class="stat-label">apart, but nobody else matters even a fraction as much</p>
-                </div>
+            <div class="proud-content-box">
+                <p>i want you to know how deeply i admire you. watching you navigate your life, put effort into the things you care about, and handle everything with so much grace makes me incredibly proud. you have this beautiful dedication to what you do, and it inspires me every single day.</p>
+                
+                <div class="divider-line">✦</div>
+                
+                <p>but i’m not just proud of you—i am so immensely proud of *us*. the way we understand each other, the way you appreciate my existence just as i do yours, and the home we’ve built between us. thank you for simply being you.</p>
             </div>
-            
-            <p class="cosmic-text handwritten">"cities between us. roads, rivers, entire states. and yet, the last thing i want to hear before sleeping is your voice."</p>
         </div>
     </section>
 
-    <!-- SECTION 4: Interactive Letter Reveal -->
+    <!-- SECTION 4: Starry Constellation Corner (NEW) -->
+    <section class="starry-section center-align">
+        <!-- Canvas background for the glowing stars -->
+        <div class="stars-overlay"></div>
+        
+        <div class="container cosmic-relative">
+            <h2 class="handwritten section-heading light-text">written in the stars.</h2>
+            <p class="small-italic light-text" style="opacity: 0.7;">the universe aligned perfectly for us</p>
+            
+            <!-- Constellation SVG Graphic placeholder -->
+            <div class="constellation-box">
+                <svg viewBox="0 0 200 100" class="constellation-svg">
+                    <!-- Dots for stars -->
+                    <circle cx="30" cy="50" r="2" fill="#fff" class="glowing-star"/>
+                    <circle cx="70" cy="20" r="3" fill="#fff" class="glowing-star"/>
+                    <circle cx="110" cy="80" r="2" fill="#fff" class="glowing-star"/>
+                    <circle cx="160" cy="40" r="2.5" fill="#fff" class="glowing-star"/>
+                    <!-- Lines connecting them like a constellation -->
+                    <line x1="30" y1="50" x2="70" y2="20" stroke="rgba(255,255,255,0.4)" stroke-width="1" stroke-dasharray="3"/>
+                    <line x1="70" y1="20" x2="110" y2="80" stroke="rgba(255,255,255,0.4)" stroke-width="1" stroke-dasharray="3"/>
+                    <line x1="110" y1="80" x2="160" y2="40" stroke="rgba(255,255,255,0.4)" stroke-width="1" stroke-dasharray="3"/>
+                </svg>
+            </div>
+            
+            <p class="cosmic-text handwritten">"some people look at constellations to find direction. i just look at you. you are my favorite sky, sunny."</p>
+        </div>
+    </section>
+
+    <!-- SECTION 5: Interactive Poem Letter Box -->
     <section class="light-section center-align">
         <div class="container">
-            <h2 class="handwritten section-heading">a written letter.</h2>
-            <p class="small-italic">written with my whole heart, meant for always.</p>
+            <h2 class="handwritten section-heading">a piece of my heart.</h2>
+            <p class="small-italic">a poem letter meant just for you.</p>
             
-            <!-- Clickable preview envelope box -->
             <div class="envelope-preview" id="envelopeBtn" onclick="revealLetter()">
-                <p class="handwritten">click to unwrap your letter...</p>
+                <p class="handwritten">click to unwrap your poem letter...</p>
                 <span class="music-icon">🎵</span>
             </div>
 
-            <!-- Hidden detailed letter content -->
             <div id="hiddenLetter" class="letter-content-box hidden">
-                <h3 class="handwritten">to the boy who holds my world,</h3>
-                <p>i think about your existence a lot. how out of billions of people, you ended up being my person. you became my home so quickly without even trying.</p>
-                <p>thank you for your kindness, your patience, the way you make me feel safe, and for just being born. i hope today shows you even a fraction of how deeply loved you are.</p>
-                <p class="handwritten" style="font-size: 1.8rem; margin-top: 2rem;">— forever yours, me.</p>
+                <div class="poem-text">
+                    <!-- Paste your written poem lines inside here -->
+                    <p class="italic-line">in a sky full of transient sparks,</p>
+                    <p class="italic-line">you are the steady, golden glow.</p>
+                    <p class="italic-line">the anchor in my quiet dark,</p>
+                    <p class="italic-line">the sweetest peace i’ll ever know.</p>
+                    <br>
+                    <p>Sunny,</p>
+                    <p>happy birthday. you can change this text whenever you finish drafting your full poem-letter, making it wrap beautifully row by row...</p>
+                </div>
+                <p class="handwritten" style="font-size: 1.8rem; margin-top: 2rem; text-align: right;">— with all my love, me.</p>
             </div>
         </div>
     </section>
 
-    <!-- SECTION 5: Things I Notice (Sticky Notes Grid) -->
+    <!-- SECTION 6: The Little Things I Notice (Sticky Notes) -->
     <section class="light-section">
         <div class="container">
             <h2 class="handwritten section-heading">the little things i notice.</h2>
-            <p class="small-italic">small things that mean absolutely everything to me.</p>
+            <p class="small-italic">small habits that mean absolutely everything to me.</p>
             
             <div class="sticky-notes-container">
                 <div class="note note-yellow">
-                    <p class="handwritten">the way your voice sounds when you're sleepy.</p>
+                    <p class="handwritten">the passion in your voice when you talk about things you love.</p>
                 </div>
                 <div class="note note-pink">
-                    <p class="handwritten">the way you randomly make me laugh when i'm stressed.</p>
+                    <p class="handwritten">how safe you make me feel, even when the days get heavy.</p>
                 </div>
                 <div class="note note-blue">
-                    <p class="handwritten">how effortlessly you listen to my long rants.</p>
+                    <p class="handwritten">your laugh—the absolute best sound in my entire day.</p>
                 </div>
                 <div class="note note-purple">
-                    <p class="handwritten">that specific smile you only make when you're teasing me.</p>
+                    <p class="handwritten">how effortlessly you show kindness to everyone around you.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SECTION 6: Outro Footer -->
+    <!-- SECTION 7: Outro Footer -->
     <section class="light-section center-align" style="padding-bottom: 100px;">
         <div class="polaroid-row">
             <div class="polaroid small-polaroid"><img src="images/gallery1.jpg"></div>
@@ -123,7 +153,7 @@
             <div class="polaroid small-polaroid"><img src="images/gallery3.jpg"></div>
         </div>
         <h2 class="handwritten main-title" style="margin-top: 40px;">happy birthday, favorite human.</h2>
-        <p class="small-italic">i'm not going anywhere. not ever.</p>
+        <p class="small-italic">i'm right here. always.</p>
     </section>
 
     <script src="script.js"></script>
